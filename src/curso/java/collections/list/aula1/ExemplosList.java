@@ -27,7 +27,7 @@ public class ExemplosList {
 		 * os dados (insercao ou remocao)
 		 */
 
-		System.out.println("Cire uma lista e adicione sete notas: ");
+		System.out.println("Crie uma lista e adicione sete notas: ");
 		List<Double> notas = new ArrayList<>(); // Generic (jdk 5) - Diamond operator (jdk 7) --> mais usada na
 												// programacao
 		// add --> para insercao de dados
