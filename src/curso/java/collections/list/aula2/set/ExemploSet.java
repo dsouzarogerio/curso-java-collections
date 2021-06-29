@@ -1,4 +1,4 @@
-package curso.java.collections.list.aula3;
+package curso.java.collections.list.aula2.set;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -10,18 +10,22 @@ import java.util.TreeSet;
 
 public class ExemploSet {
 
-	public static void main(String[] args) {
-//Dada uma lista com 7  notas de um aluno (7, 8.5, 9.3, 5, 7, 0, 3.6), faca:
+	//Dada uma lista com 7  notas de um aluno (7, 8.5, 9.3, 5, 7, 0, 3.6), faca:
 
-//Implementações
-//			Set notas = new HashSet(); --> antes do Java 5
-//			HashSet<Double> notas = new HashSet<>();
-//			Set<Double> notas = new HashSet<>(); //--> Generics (jdk5) - Diamond Operator(jdk7)
-//			Set<Double> notas = Set.of(7d, 8.5, 9.3, 5d, 7d, 0d, 3.6); //--> elementos duplicados não são aceitos
-//			notas.add(1d);
-//			notas.add(1d);
-//			System.out.println(notas);
-			
+	public static void main(String[] args) {
+/*
+ *  Implementações
+ * Set notas = new HashSet(); --> antes do Java 5
+ * HashSet<Double> notas = new HashSet<>();
+ * Set<Double> notas = new HashSet<>(); //--> Generics (jdk5) - Diamond Operator(jdk7)
+ * 
+ */
+		//--> Set não aceita elementos duplicados 
+//		Set<Double> notas = Set.of(7d, 8.5, 9.3, 5d, 7d, 0d, 3.6); 		
+//		notas.add(1d);
+//		notas.add(1d);
+//		System.out.println(notas);
+		
 			System.out.println("Crie um conjunto e adicione as notas:");
 			//Elementos serão impressos em ordem aleatória
 			//Elementos duplicados não serão impressos
